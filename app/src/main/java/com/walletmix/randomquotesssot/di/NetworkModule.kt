@@ -22,12 +22,11 @@ object NetworkModule {
 
     @Singleton
     @Provides
-    fun provideRetrofit(okHttpClient: OkHttpClient, gson: Gson): Retrofit =
+    fun provideRetrofit(gson: Gson): Retrofit =
         Retrofit
             .Builder()
             .baseUrl(BASE_URL)
             .addConverterFactory(GsonConverterFactory.create(gson))
-            .client(okHttpClient)
             .build()
 
     @Provides
