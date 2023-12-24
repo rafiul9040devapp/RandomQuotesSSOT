@@ -4,7 +4,7 @@ import com.walletmix.randomquotesssot.data.model.RandomQuoteResponse
 import retrofit2.Response
 import retrofit2.http.GET
 
-private const val RandomQuotePath = "quotes/random"
+private const val RandomQuotePath = "/quotes/random?limit=100"
 
 interface RandomQuotesApiService {
 
