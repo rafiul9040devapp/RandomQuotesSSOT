@@ -11,7 +11,9 @@ import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.flow.flowOn
 import kotlinx.coroutines.flow.map
 import javax.inject.Inject
+import javax.inject.Singleton
 
+@Singleton
 class RandomQuotesRepositoryImpl @Inject constructor(
     private val coroutineDispatcher: CoroutineDispatcher,
     private val localDataSource: RandomQuotesLocalDataSource,

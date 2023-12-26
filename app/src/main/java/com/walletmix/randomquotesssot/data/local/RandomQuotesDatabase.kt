@@ -7,8 +7,7 @@ import com.walletmix.randomquotesssot.data.local.converter.DateConverter
 import com.walletmix.randomquotesssot.data.local.converter.ListToStringConverter
 import com.walletmix.randomquotesssot.data.model.RandomQuoteEntity
 
-const val RandomQuotesDb = "random_quotes_db"
-const val RandomQuotesTable = "random_quotes"
+
 
 @Database(
     entities = [RandomQuoteEntity::class], version = 1

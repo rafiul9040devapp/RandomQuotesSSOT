@@ -3,6 +3,7 @@ package com.walletmix.randomquotesssot.di
 import com.google.gson.Gson
 import com.google.gson.GsonBuilder
 import com.walletmix.randomquotesssot.data.remote.RandomQuotesApiService
+import com.walletmix.randomquotesssot.utils.BASE_URL
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -14,7 +15,7 @@ import retrofit2.create
 import javax.inject.Singleton
 
 
-private const val BASE_URL = "https://api.quotable.io"
+
 
 @InstallIn(SingletonComponent::class)
 @Module

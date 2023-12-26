@@ -5,6 +5,7 @@ import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
 import com.walletmix.randomquotesssot.data.model.RandomQuoteEntity
+import com.walletmix.randomquotesssot.utils.RandomQuotesTable
 import kotlinx.coroutines.flow.Flow
 
 

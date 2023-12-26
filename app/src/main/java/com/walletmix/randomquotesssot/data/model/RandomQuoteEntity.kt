@@ -2,7 +2,7 @@ package com.walletmix.randomquotesssot.data.model
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import com.walletmix.randomquotesssot.data.local.RandomQuotesTable
+import com.walletmix.randomquotesssot.utils.RandomQuotesTable
 
 @Entity(tableName = RandomQuotesTable)
 data class RandomQuoteEntity(

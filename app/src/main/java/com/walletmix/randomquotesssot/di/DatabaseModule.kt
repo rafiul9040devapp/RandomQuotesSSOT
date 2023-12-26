@@ -2,10 +2,9 @@ package com.walletmix.randomquotesssot.di
 
 import android.content.Context
 import androidx.room.Room
-import androidx.room.RoomDatabase
 import com.walletmix.randomquotesssot.data.local.RandomQuotesDao
 import com.walletmix.randomquotesssot.data.local.RandomQuotesDatabase
-import com.walletmix.randomquotesssot.data.local.RandomQuotesDb
+import com.walletmix.randomquotesssot.utils.RandomQuotesDb
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
