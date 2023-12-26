@@ -46,7 +46,7 @@ class QuotesViewModel @Inject constructor(
             }.launchIn(viewModelScope)
     }
 
-    private fun fetchRandomQuotes() {
+     fun fetchRandomQuotes() {
         viewModelScope.launch {
             fetchRandomQuotesUseCase().collectLatest { value: Result<RandomQuote> ->
                 value.onFailure { error ->
